@@ -1,0 +1,77 @@
+html {
+
+
+}
+
+body {
+    text-align: center;
+    margin-top: 14%;
+
+
+
+}
+
+h1{
+    font-size: 60px;
+    color: #0080ff;
+    /*text-shadow: 2px 2px #b3b3cc;*/
+    font-family: "Arial Black";
+
+
+
+}
+
+
+@media(max-width: 10px) {
+  #email {
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  font-size: 24px;
+
+}
+}
+
+#email {
+  position: fixed;
+  left: 20px;
+  bottom: 10px;
+  font-size: 14px;
+
+}
+
+#semi {
+  color: black;
+}
+
+p {
+  font-size: 18px;
+  font-family: courier;
+}
+
+a:hover {
+  font-weight: bold;
+
+}
+
+a {
+ color: black;
+ text-decoration: none;
+}
+
+
+
+#nav {
+margin-top: 25px;
+margin-bottom: 50px;
+
+}
+
+#GitHub {
+margin-right: 25px;
+
+}
+
+#Twitter {
+margin-left: 25px;
+}
