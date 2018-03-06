@@ -1,46 +1,14 @@
-html {
-
-
-}
 
 body {
-    text-align: center;
-    margin-top: 14%;
-
-
-
-}
-
-h1{
-    font-size: 60px;
-    color: #0080ff;
-    font-family: "Arial Black";
-
-
-
-}
-
-
-@media(max-width: 10px) {
-  #email {
-  position: relative;
-  bottom: 10px;
   text-align: center;
-  font-size: 24px;
-
-}
+  margin-top: 14%;
 }
 
-#email {
-  position: fixed;
-  left: 20px;
-  bottom: 10px;
-  font-size: 14px;
-
-}
-
-#semi {
-  color: black;
+h1 {
+  font-size: 60px;
+  color: #0080ff;
+  font-family: "Arial Black";
+  margin-bottom: 10px;
 }
 
 p {
@@ -50,27 +18,35 @@ p {
 
 a:hover {
   font-weight: bold;
-
 }
 
 a {
- color: black;
- text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
-
+#semi {
+  color: black;
+}
 
 #nav {
-margin-top: 25px;
-margin-bottom: 50px;
-
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 #GitHub {
-margin-right: 25px;
-
+  margin-right: 25px;
 }
 
 #Twitter {
-margin-left: 25px;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
