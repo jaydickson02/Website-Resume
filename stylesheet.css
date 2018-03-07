@@ -1,7 +1,13 @@
 
+html {
+background-image: url(dust_scratches.png);
+
+}
+
 body {
   text-align: center;
   margin-top: 14%;
+
 }
 
 h1 {
@@ -44,16 +50,21 @@ a {
 }
 
 #About {
-  text-align: center;
   width: 75%;
   margin: auto;
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    margin-top: 5%;
+  }
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  #About {
+  width: 9%;
   }
 }
