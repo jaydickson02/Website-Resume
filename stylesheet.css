@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 370%;
   color: #0080ff;
   font-family: "Arial Black";
   padding: 0px;
@@ -20,11 +20,9 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 115%;
   font-family: courier;
-  padding: 0px;
-  padding-bottom: 40px;
-  margin: 0px;
+  margin: 0;
 
 }
 
@@ -48,11 +46,15 @@ a {
 }
 
 #GitHub {
-  margin-right: 25px;
+  margin-right: 12px;
+  width:60px;
+  height:60px;
 }
 
-#Twitter {
-  margin-left: 25px;
+#twitter {
+  margin-left: 12px;
+  width:60px;
+  height:60px;
 }
 
 #About {
@@ -60,17 +62,36 @@ a {
   margin: auto;
 }
 
+#intro {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+
+}
+
 @media screen and (max-width: 600px) {
   body {
     margin-top: 5%;
   }
   h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   p {
     font-size: 14px;
   }
   #About {
-  width: 92%;
+  width: 90%;
+  }
+  #twitter {
+    margin-left: 8;
+    width: 40px;
+    height: 40px;
+
+  }
+  #GitHub {
+    margin-right: 8;
+    width: 40px;
+    height: 40px;
+
   }
 }
