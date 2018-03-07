@@ -14,12 +14,17 @@ h1 {
   font-size: 60px;
   color: #0080ff;
   font-family: "Arial Black";
-  margin-bottom: 10px;
+  padding: 0px;
+  padding-bottom: 5px;
+  margin: 0px;
 }
 
 p {
   font-size: 18px;
   font-family: courier;
+  padding: 0px;
+  padding-bottom: 40px;
+  margin: 0px;
 
 }
 
@@ -37,8 +42,9 @@ a {
 }
 
 #nav {
-  margin-top: 25px;
-  margin-bottom: 50px;
+  padding: 0px;
+  padding-bottom: 20px;
+  margin: 0px;
 }
 
 #GitHub {
