@@ -1,13 +1,13 @@
 
 html {
 background-image: url(dust_scratches.png);
-
+border-style: solid;
 }
 
 body {
   text-align: center;
-  margin-top: 14%;
 
+  border-style: solid;
 }
 
 h1 {
@@ -24,6 +24,12 @@ p {
   font-family: courier;
   margin: 0;
 
+}
+
+li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: justify;
 }
 
 a:hover {
@@ -67,6 +73,15 @@ a {
   margin: auto;
   margin-bottom: 40px;
 
+}
+
+#content1 {
+  border-style: solid;
+  height: 100%;
+}
+
+#filler {
+  height: 15%;
 }
 
 @media screen and (max-width: 600px) {
