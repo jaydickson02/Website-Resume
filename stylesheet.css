@@ -160,3 +160,54 @@ padding-top: 34vh;
 
   }
 }
+
+
+#github {
+position: fixed;
+top: 100px;
+left: 200px;
+width: 150px;
+height: 150px;
+}
+
+
+
+#python {
+  position: fixed;
+  bottom: 85px;
+  right: 200px;
+  width: 150px;
+  height: 150px;
+}
+
+#node {
+  position: fixed;
+  bottom: 85px;
+  left: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+#java {
+  position: fixed;
+  top: 100px;
+  right: 200px;
+  width: 150px;
+  height: 150px;
+}
+
+#aws {
+  position: fixed;
+  top: 40%;
+  right: 100px;
+  width: 150px;
+  height: 150px;
+}
+
+#git{
+  position: fixed;
+  top: 40%;
+  left: 100px;
+  width: 150px;
+  height: 150px;
+}
